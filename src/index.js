@@ -24,7 +24,7 @@ connectDB();
 
 const allowedOrigins = [
   "http://localhost:3001",
-  "https://madrassa-frontend.onrender.com"
+  "https://albasaair.vercel.app"
 ];
 
 app.use(cors({
@@ -81,3 +81,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
